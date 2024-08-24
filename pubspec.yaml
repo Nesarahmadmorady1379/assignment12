@@ -45,6 +45,8 @@ dependencies:
   audioplayers: ^6.0.0
   flex_color_picker: ^3.5.1
   pluto_grid: ^8.0.0
+  url_launcher: ^6.1.7
+  flutter_linkify: ^6.0.0
 
 dev_dependencies:
   flutter_test:
