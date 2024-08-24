@@ -146,29 +146,26 @@ class _Assigmet12 extends State<Assigmet12> {
                       break;
                   }
                 },
-                child: Card(
-                  color: Color.fromARGB(r.nextInt(244), r.nextInt(244),
-                      r.nextInt(244), r.nextInt(244)),
-                  child: GridTile(
-                    header: Padding(
-                      padding: EdgeInsets.all(8.0),
-                      child: Text(
-                        '${libraries[index].name}',
-                        style: TextStyle(fontSize: 20, color: Colors.white),
-                        textAlign: TextAlign.center,
-                      ),
+                child: GridTile(
+                  header: Padding(
+                    padding: EdgeInsets.all(8.0),
+                    child: Text(
+                      '${libraries[index].name}',
+                      style: TextStyle(fontSize: 20, color: Colors.white),
+                      textAlign: TextAlign.center,
                     ),
-                    footer: Padding(
-                      padding: EdgeInsets.all(8.0),
-                      child: Text(
-                        '${libraries[index].popularity}',
-                        style: TextStyle(fontSize: 16, color: Colors.white),
-                        textAlign: TextAlign.center,
-                      ),
+                  ),
+                  footer: Padding(
+                    padding: EdgeInsets.all(8.0),
+                    child: Text(
+                      '${libraries[index].popularity}',
+                      style: TextStyle(fontSize: 16, color: Colors.white),
+                      textAlign: TextAlign.center,
                     ),
-                    child: Container(
-                      color: Colors.blueAccent, // Example background color
-                    ),
+                  ),
+                  child: Container(
+                    color: Color.fromARGB(r.nextInt(244), r.nextInt(244),
+                        r.nextInt(244), r.nextInt(244)),
                   ),
                 ),
               );
